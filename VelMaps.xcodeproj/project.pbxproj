@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD4B5331FB5B9E900F83AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */; };
+		8DD4B5351FB5B9E900F83AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4B5341FB5B9E900F83AEF /* ViewController.swift */; };
+		8DD4B5381FB5B9E900F83AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B5361FB5B9E900F83AEF /* Main.storyboard */; };
+		8DD4B53A1FB5B9E900F83AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B5391FB5B9E900F83AEF /* Assets.xcassets */; };
+		8DD4B53D1FB5B9E900F83AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B53B1FB5B9E900F83AEF /* LaunchScreen.storyboard */; };
+		8DD4B5481FB5B9E900F83AEF /* VelMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4B5471FB5B9E900F83AEF /* VelMapsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DD4B5441FB5B9E900F83AEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DD4B5271FB5B9E800F83AEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD4B52E1FB5B9E900F83AEF;
+			remoteInfo = VelMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DD4B52F1FB5B9E900F83AEF /* VelMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DD4B5341FB5B9E900F83AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DD4B5371FB5B9E900F83AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DD4B5391FB5B9E900F83AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DD4B53C1FB5B9E900F83AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DD4B53E1FB5B9E900F83AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD4B5431FB5B9E900F83AEF /* VelMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VelMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD4B5471FB5B9E900F83AEF /* VelMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelMapsTests.swift; sourceTree = "<group>"; };
+		8DD4B5491FB5B9E900F83AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD4B52C1FB5B9E900F83AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD4B5401FB5B9E900F83AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DD4B5261FB5B9E800F83AEF = {
+			isa = PBXGroup;
+			children = (
+				8DD4B5311FB5B9E900F83AEF /* VelMaps */,
+				8DD4B5461FB5B9E900F83AEF /* VelMapsTests */,
+				8DD4B5301FB5B9E900F83AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DD4B5301FB5B9E900F83AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD4B52F1FB5B9E900F83AEF /* VelMaps.app */,
+				8DD4B5431FB5B9E900F83AEF /* VelMapsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DD4B5311FB5B9E900F83AEF /* VelMaps */ = {
+			isa = PBXGroup;
+			children = (
+				8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */,
+				8DD4B5341FB5B9E900F83AEF /* ViewController.swift */,
+				8DD4B5361FB5B9E900F83AEF /* Main.storyboard */,
+				8DD4B5391FB5B9E900F83AEF /* Assets.xcassets */,
+				8DD4B53B1FB5B9E900F83AEF /* LaunchScreen.storyboard */,
+				8DD4B53E1FB5B9E900F83AEF /* Info.plist */,
+			);
+			path = VelMaps;
+			sourceTree = "<group>";
+		};
+		8DD4B5461FB5B9E900F83AEF /* VelMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DD4B5471FB5B9E900F83AEF /* VelMapsTests.swift */,
+				8DD4B5491FB5B9E900F83AEF /* Info.plist */,
+			);
+			path = VelMapsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD4B52E1FB5B9E900F83AEF /* VelMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD4B54C1FB5B9E900F83AEF /* Build configuration list for PBXNativeTarget "VelMaps" */;
+			buildPhases = (
+				8DD4B52B1FB5B9E900F83AEF /* Sources */,
+				8DD4B52C1FB5B9E900F83AEF /* Frameworks */,
+				8DD4B52D1FB5B9E900F83AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VelMaps;
+			productName = VelMaps;
+			productReference = 8DD4B52F1FB5B9E900F83AEF /* VelMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DD4B5421FB5B9E900F83AEF /* VelMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD4B54F1FB5B9E900F83AEF /* Build configuration list for PBXNativeTarget "VelMapsTests" */;
+			buildPhases = (
+				8DD4B53F1FB5B9E900F83AEF /* Sources */,
+				8DD4B5401FB5B9E900F83AEF /* Frameworks */,
+				8DD4B5411FB5B9E900F83AEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DD4B5451FB5B9E900F83AEF /* PBXTargetDependency */,
+			);
+			name = VelMapsTests;
+			productName = VelMapsTests;
+			productReference = 8DD4B5431FB5B9E900F83AEF /* VelMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DD4B5271FB5B9E800F83AEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = cat_lus;
+				TargetAttributes = {
+					8DD4B52E1FB5B9E900F83AEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8DD4B5421FB5B9E900F83AEF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DD4B52E1FB5B9E900F83AEF;
+					};
+				};
+			};
+			buildConfigurationList = 8DD4B52A1FB5B9E800F83AEF /* Build configuration list for PBXProject "VelMaps" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DD4B5261FB5B9E800F83AEF;
+			productRefGroup = 8DD4B5301FB5B9E900F83AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD4B52E1FB5B9E900F83AEF /* VelMaps */,
+				8DD4B5421FB5B9E900F83AEF /* VelMapsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DD4B52D1FB5B9E900F83AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD4B53D1FB5B9E900F83AEF /* LaunchScreen.storyboard in Resources */,
+				8DD4B53A1FB5B9E900F83AEF /* Assets.xcassets in Resources */,
+				8DD4B5381FB5B9E900F83AEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD4B5411FB5B9E900F83AEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD4B52B1FB5B9E900F83AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD4B5351FB5B9E900F83AEF /* ViewController.swift in Sources */,
+				8DD4B5331FB5B9E900F83AEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD4B53F1FB5B9E900F83AEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD4B5481FB5B9E900F83AEF /* VelMapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DD4B5451FB5B9E900F83AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD4B52E1FB5B9E900F83AEF /* VelMaps */;
+			targetProxy = 8DD4B5441FB5B9E900F83AEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DD4B5361FB5B9E900F83AEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD4B5371FB5B9E900F83AEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DD4B53B1FB5B9E900F83AEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DD4B53C1FB5B9E900F83AEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DD4B54A1FB5B9E900F83AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DD4B54B1FB5B9E900F83AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DD4B54D1FB5B9E900F83AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VelMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..VelMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DD4B54E1FB5B9E900F83AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VelMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..VelMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DD4B5501FB5B9E900F83AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VelMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..VelMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VelMaps.app/VelMaps";
+			};
+			name = Debug;
+		};
+		8DD4B5511FB5B9E900F83AEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VelMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example..VelMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VelMaps.app/VelMaps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DD4B52A1FB5B9E800F83AEF /* Build configuration list for PBXProject "VelMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD4B54A1FB5B9E900F83AEF /* Debug */,
+				8DD4B54B1FB5B9E900F83AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD4B54C1FB5B9E900F83AEF /* Build configuration list for PBXNativeTarget "VelMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD4B54D1FB5B9E900F83AEF /* Debug */,
+				8DD4B54E1FB5B9E900F83AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD4B54F1FB5B9E900F83AEF /* Build configuration list for PBXNativeTarget "VelMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD4B5501FB5B9E900F83AEF /* Debug */,
+				8DD4B5511FB5B9E900F83AEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DD4B5271FB5B9E800F83AEF /* Project object */;
+}
