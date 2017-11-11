@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8DD4B5331FB5B9E900F83AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */; };
-		8DD4B5351FB5B9E900F83AEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4B5341FB5B9E900F83AEF /* ViewController.swift */; };
 		8DD4B5381FB5B9E900F83AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B5361FB5B9E900F83AEF /* Main.storyboard */; };
 		8DD4B53A1FB5B9E900F83AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B5391FB5B9E900F83AEF /* Assets.xcassets */; };
 		8DD4B53D1FB5B9E900F83AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B53B1FB5B9E900F83AEF /* LaunchScreen.storyboard */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		8DD4B52F1FB5B9E900F83AEF /* VelMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8DD4B5341FB5B9E900F83AEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DD4B5371FB5B9E900F83AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD4B5391FB5B9E900F83AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DD4B53C1FB5B9E900F83AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */,
-				8DD4B5341FB5B9E900F83AEF /* ViewController.swift */,
 				8DD4B5361FB5B9E900F83AEF /* Main.storyboard */,
 				8DD4B5391FB5B9E900F83AEF /* Assets.xcassets */,
 				8DD4B53B1FB5B9E900F83AEF /* LaunchScreen.storyboard */,
@@ -199,7 +196,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD4B5351FB5B9E900F83AEF /* ViewController.swift in Sources */,
 				8DD4B5331FB5B9E900F83AEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K24X689RQJ;
 				INFOPLIST_FILE = VelMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example..VelMaps;
@@ -368,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K24X689RQJ;
 				INFOPLIST_FILE = VelMaps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example..VelMaps;
