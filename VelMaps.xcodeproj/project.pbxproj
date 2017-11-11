@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DD468991FB74142008F8E0A /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD468981FB74142008F8E0A /* TestClass.swift */; };
 		8DD4B5331FB5B9E900F83AEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */; };
 		8DD4B5381FB5B9E900F83AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B5361FB5B9E900F83AEF /* Main.storyboard */; };
 		8DD4B53A1FB5B9E900F83AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4B5391FB5B9E900F83AEF /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DD468981FB74142008F8E0A /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		8DD4B52F1FB5B9E900F83AEF /* VelMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD4B5321FB5B9E900F83AEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DD4B5371FB5B9E900F83AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		8DD4B5261FB5B9E800F83AEF = {
 			isa = PBXGroup;
 			children = (
+				8DD468981FB74142008F8E0A /* TestClass.swift */,
 				8DD4B5311FB5B9E900F83AEF /* VelMaps */,
 				8DD4B5461FB5B9E900F83AEF /* VelMapsTests */,
 				8DD4B5301FB5B9E900F83AEF /* Products */,
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD468991FB74142008F8E0A /* TestClass.swift in Sources */,
 				8DD4B5331FB5B9E900F83AEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
